@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: lighter;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+
+  svg{
+    fill: #213547;
+  }
+
+  .right .toggler{
+    background: #d3d3d3;
+    border: .2px solid;
+  }
+
+  .toggler span{
+    background: #213547;
+    top: .5px;
+  }
+
+  .search input{
+    background: #e9e2ee;
+    border: .2px solid;
+    outline: none;
+    font-weight: 300;
+  }
+
+  .transcription{
+    color: #bd62f2;
+    font-weight: 400;
+  }
+
+  .results ul li::marker{
+    color:#213547;
+  }
+
+  .meanings{
+    color: #2c2c2c;
+  }
+
+  .results ul li{
+    color:#213547;
+    font-weight: 300;
+  }
+
+  .results ul li p{
+    color:#2c2c2c;
+    font-weight: 200;
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+
+svg{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+

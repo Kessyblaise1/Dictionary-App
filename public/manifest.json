@@ -1,0 +1,43 @@
+{
+  "name": "Excel Dictionary",
+  "short_name": "Dictionary",
+  "theme_color": "#213547",
+  "background_color": "#213547",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "Icons/maskable_logo_x192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Icons/maskable_logo_x512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Icons/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Icons/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "Icons/logo384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "Icons/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

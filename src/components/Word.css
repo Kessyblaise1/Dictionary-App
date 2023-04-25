@@ -1,0 +1,113 @@
+.title_container {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.transcription {
+  color: #e8bcf0;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.line p {
+  margin-right: 20px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.line span {
+  display: block;
+  width: 100%;
+  height: 0.5px;
+  background: #3c3c3c;
+}
+
+.results ul{
+  padding: 0 15px;
+}
+
+@media (min-width: 700px) {
+  .results ul {
+    padding-left: 40px;
+  }
+}
+
+.results {
+  margin-bottom: 1.5rem;
+}
+
+.results ul li {
+  margin-bottom: 1rem;
+}
+
+.results ul li::marker {
+  color: #bd62f2;
+}
+
+.meanings {
+  color: #a5a5a5;
+}
+
+.results ul li p {
+  display: block;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-style: italic;
+  color: rgba(188, 188, 188, 0.87);
+  font-weight: 300;
+}
+
+.play_button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e7c5ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.source {
+  border-top: 0.2px solid #3c3c3c;
+  padding-top: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.source p {
+  margin-right: 20px;
+}
+
+.fourOhfour {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourOhfour span {
+  font-weight: 600;
+  color: #bd62f2;
+}
+
+.fourOhfour svg{
+  display: block;
+  text-align: center;
+  margin: 1.5rem 0;
+}
