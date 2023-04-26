@@ -73,6 +73,7 @@ function App() {
           placeholder="search word"
           id="search"
           onChange={(e) => debounceTextUpdate(e.target.value)}
+          autoComplete="off"
         />
         <svg
           version="1.1"
