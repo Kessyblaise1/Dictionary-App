@@ -8,7 +8,7 @@ Dictionary App is a user-friendly application created with Reactjs that allows u
 
 ## Demo
 
-[Visit Live Site]("https://dictionary-app-sable-iota.vercel.app")
+[Visit Live Site](https://dictionary-app-sable-iota.vercel.app)
 
 
 ## Screenshots
