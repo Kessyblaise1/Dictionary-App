@@ -6,6 +6,15 @@
 
 Dictionary App is a user-friendly application created with Reactjs that allows users to search for the meaning of English words and hear their correct pronunciation. This app integrates with a dictionary API to retrieve definitions and audio pronunciation for any word entered in the search field. Users can simply type in a word they want to look up, hit the search button, and the app will display the definition of the word along with an audio clip of the correct pronunciation. With its intuitive interface and reliable API integration, Dictionary App is a handy tool for anyone looking to expand their vocabulary or improve their pronunciation.
 
+## Demo
+
+[Visit Live Site]("https://dictionary-app-sable-iota.vercel.app")
+
+
+## Screenshots
+
+![App Screenshot](./src/assets/Screenshot.png)
+
 ## Tech Stack
 
 **Client:** React, Axios, CSS, JavaScript
